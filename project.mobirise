@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FrasiDi",
-    "currentPage": "frase-di-lil-peep.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -70,7 +70,9 @@
     "google-analytics": "<amp-analytics id='analytics1' type='googleanalytics'>\n<script type='application/json'>\n{\n  &quot;vars&quot;: {\n    &quot;account&quot;: &quot;UA-160624327-1&quot;\n  },\n  &quot;triggers&quot;: {\n    &quot;trackPageview&quot;: {\n      &quot;on&quot;: &quot;visible&quot;,\n      &quot;request&quot;: &quot;pageview&quot;\n    }\n  }\n}\n</script>\n</amp-analytics> ",
     "uniqCompNum": 32,
     "versionPublish": "4.12.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "witsec-white-label": true,
+    "witsec-language": "it"
   },
   "pages": {
     "index.html": {
