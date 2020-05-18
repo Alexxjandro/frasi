@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FrasiDi",
-    "currentPage": "index.html",
+    "currentPage": "frase-di-lil-peep.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -34,7 +34,13 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
     "imageResize": true,
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -62,8 +68,9 @@
     "favicon": false,
     "canonical-url": "https://it.frasesde.xyz",
     "google-analytics": "<amp-analytics id='analytics1' type='googleanalytics'>\n<script type='application/json'>\n{\n  &quot;vars&quot;: {\n    &quot;account&quot;: &quot;UA-160624327-1&quot;\n  },\n  &quot;triggers&quot;: {\n    &quot;trackPageview&quot;: {\n      &quot;on&quot;: &quot;visible&quot;,\n      &quot;request&quot;: &quot;pageview&quot;\n    }\n  }\n}\n</script>\n</amp-analytics> ",
-    "uniqCompNum": 12,
-    "versionPublish": "4.12.3"
+    "uniqCompNum": 32,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -173,11 +180,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>pepepepiNI</b></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Acelere su sitio con AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right mbr-pt-1 mbr-pb-3 mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Intro de ancho completo con altura ajustable e imagen de fondo. Haga clic en cualquier texto para editarlo o darle un estilo.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                LEER MÁS\n            </a></div>\n    </div>\n\n</section>",
           "_cid": "rZlalFKHbA",
+          "_anchor": "header1-1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-1"
+          "_params": {}
         },
         {
           "alias": false,
@@ -493,7 +500,8 @@
       "settings": {
         "title": "Pagina en blanco",
         "order": 1,
-        "meta_descr": "descripsion de la pagina"
+        "meta_descr": "descripsion de la pagina",
+        "header_custom": ""
       },
       "components": [
         {
@@ -591,11 +599,11 @@
           "_name": "content19",
           "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\" selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    Frasi di&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\">\n                    <i>Este es la descripcion</i></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-down mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rZlcgqTqAj",
+          "_anchor": "Frases-de",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content19-7"
+          "_params": {}
         },
         {
           "alias": false,
@@ -610,11 +618,13 @@
           "_name": "content2",
           "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    Creador de Sitios Web Gratuitos\n                </h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <b> ¡Crea tu propio sitio web con unos pocos clics!</b> Mobirise le ayuda a reducir el tiempo de desarrollo al proporcionarle un editor de sitio web flexible con una interfaz de arrastrar y soltar. Mobirise Website Builder crea sitios web receptivos, retina y <i> compatibles con dispositivos móviles</i> con unos pocos clics. Mobirise es una de las herramientas de desarrollo de sitios web más fáciles <a href=\"https://mobirise.co/\">disponibles</a> en la actualidad. También le da la libertad de desarrollar tantos sitios web como desee, ya que es una aplicación de escritorio.\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rZlcrgZc8V",
+          "_anchor": "content2-8",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content2-8"
+          "_params": {}
         },
         {
           "alias": false,
@@ -623,6 +633,206 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".counter-container": {
+              "ol when (@stylizedCounters)": {
+                "list-style": "none",
+                "counter-reset": "myCounter",
+                "h2": {
+                  "font-size": "45px",
+                  "font-weight": "bold",
+                  "text-align": "center",
+                  "margin": "10px 0",
+                  "line-height": "1"
+                },
+                "li": {
+                  "position": "relative",
+                  "&:before": {
+                    "box-sizing": "border-box",
+                    "position": "absolute",
+                    "left": "-60px",
+                    "counter-increment": "myCounter",
+                    "content": "counter(myCounter)",
+                    "text-align": "center",
+                    "margin": "0 10px",
+                    "width": "35px",
+                    "height": "35px",
+                    "color": "@counterColor",
+                    "font": "~\"bold 20px / 30px @{display4Font}\"",
+                    "border-radius": "50%",
+                    "border": "2px solid @counterColor",
+                    "opacity": "@counterOpacity"
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            },
+            ".mbr-text .mbr-title": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section content9\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Numeración Personalizada\" name=\"stylizedCounters\" checked>\n        \n        <input type=\"color\" title=\"Color de Numeración\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"range\" title=\"Opacidad de Numeración\" inline name=\"counterOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                hola\n                <ol>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <h2>Frases de Lil Peep</h2>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rZld5uY5g8",
+          "_anchor": "content9-b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "frase-di-lil-peep.html": {
+      "settings": {
+        "title": "Frasi di Lil Peep con IMMAGINI",
+        "order": 2,
+        "meta_descr": "Queste sono le migliori frasi di Lil Peep con IMMAGINI, \"Quando morirò mi amerai\" era una delle frasi che il rapper Lil Peep ha lasciato un giorno prima di morire",
+        "header_custom": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@menuBgColor",
+            "overflow": "visible",
+            ".navbar": {
+              "background": "@menuBgColor"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor"
+            },
+            ".close-sidebar": {
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "background-color": "@hamburgerColor"
+              }
+            },
+            ".ampstart-btn, amp-sidebar": {
+              "display": "block",
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".nav-dropdown a": {
+              "padding": "0.5rem 0 !important",
+              "margin": "0 0 10px !important"
+            },
+            ".navbar .navbar-collapse": {
+              "display": "none",
+              "&.show": {
+                "display": "block",
+                "position": "absolute",
+                "top": "0",
+                "& when (@sidebarSide = 'right')": {
+                  "right": "0"
+                },
+                "& when (@sidebarSide = 'left')": {
+                  "right": "auto",
+                  "left": "0"
+                },
+                "height": "100vh",
+                "padding": "70px 2rem 1rem",
+                "z-index": "1",
+                "background": "@menuBgColor"
+              }
+            },
+            ".dropdown.open > .dropdown-menu, .dropdown:hover > .dropdown-menu, .dropdown-item.dropdown-toggle": {
+              "left": "0",
+              "position": "relative"
+            },
+            "@media (min-width: 992px)": {
+              ".dropdown-menu .dropdown-toggle:after": {
+                "transform": "rotate(90deg)"
+              }
+            },
+            ".hamburger span": {
+              "background-color": "@hamburgerColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "object-fit": "contain"
+              }
+            },
+            ".brand-name": {
+              "color": "#dc143c"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu  horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Mostrar Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"45\" step=\"1\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"45\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Mostrar Marca\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostrar Enlaces\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostrar Botón(es)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\">Izquierda</option>\n            <option value=\"right\" selected=\"\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Color de Fondo\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Color Menú &quot;Hamburguesa&quot;\" name=\"hamburgerColor\" value=\"#dc143c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top': sticky}\">\n    <div class=\"menu-container mbr-jc-s container-fluid\">\n      <div class=\"navbar-brand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/frasidi.svg\" layout=\"responsive\" width=\"45\" height=\"45\" alt=\"Frasi Di\" class=\"mobirise-loader\" title=\"Frasi Di\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/frasidi.svg\" alt=\"Frasi Di\" title=\"Frasi Di\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">FrasiDi</p>\n      </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showLinks || showButtons\">\n        <div class=\"hamburger\">\n          <span></span>\n          <span></span>\n          <span></span>\n          <span></span>\n        </div>\n        </button>\n        <!-- NAVBAR ITEMS -->\n        <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown mbr-column\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n            <a class=\"nav-link link text-secondary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a class=\"text-secondary dropdown-item dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">New Item</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"text-secondary dropdown-item\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a><a class=\"text-secondary dropdown-item\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a></div></div></div>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link link text-secondary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">About us</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link link text-secondary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contacts</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link link text-secondary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FAQ</a>\n          </li></ul>\n        <!-- NAVBAR ITEMS END -->\n        <!-- SHOW BUTTON -->\n        <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\">\n          <a class=\"btn btn-md btn-black mbr-bold\" href=\"#\">Join us</a>\n        </div>\n        <!-- SHOW BUTTON END -->\n      </div>\n      <!-- COLLAPSED MENU END -->\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showLinks || showButtons\">\n      <div class=\"hamburger\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n      </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-if=\"(showLinks||showButtons)\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n      </button>\n    </div>\n  </nav>\n  <!-- AMP plug -->\n  <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n    <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n      <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n      <span></span>\n      <span></span>\n      </button>\n    </div>\n  </amp-sidebar>\n    \n</section>",
+          "_cid": "rZlvIjuFco",
+          "_anchor": "menu1-r",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(https://1.bp.blogspot.com/-2g7aBQMJKtU/XmxRvTFSnmI/AAAAAAAAXEA/PtnMisHOO9EIeEee6H10DtDlKFy9MUVZwCLcBGAsYHQ/s1600/frases-de-lil-peep.jpg)"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\" selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Frasi di Lil Peep con IMMAGINI</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\"><i>Queste sono le migliori frasi di Lil Peep con IMMAGINI, \"Quando morirò mi amerai\" era una delle frasi che il rapper Lil Peep ha lasciato un giorno prima di morire</i></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-down mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rZlvIkRPr1",
+          "_anchor": "content19-s",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\"Quando morirò mi amerai\" era una delle frasi che il <b>rapper Lil Peep</b> ha lasciato sul suo Instagram un giorno prima di morire, era un cantante rap e hip hop con testi che possono essere introspettivi e anche deprimenti. Ecco perché in questa occasione vi portiamo le migliori frasi del rapper Lil Peep con immagini da condividere con chi volete.<br>Tragicamente, la vita di Lil Peep è stata troncata a 21 anni quando è morto per un'overdose accidentale di droga prima di un concerto a Tucson, Arizona.\n<br>\n<br>Di seguito una lista di frasi memorabili di Lil Peep in spagnolo sull'amore, la vita, il duro lavoro e la musica.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rZlvIllKbT",
+          "_anchor": "content2-t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "h2": {
+                "font-size": "45px",
+                "font-weight": "bold",
+                "text-align": "center",
+                "margin": "10px 0",
+                "line-height": "1"
+              },
               "ol when (@stylizedCounters)": {
                 "list-style": "none",
                 "counter-reset": "myCounter",
@@ -646,48 +856,24 @@
                   }
                 }
               }
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            },
+            ".mbr-text .mbr-title": {
+              "text-align": "right"
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section content9\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Numeración Personalizada\" name=\"stylizedCounters\" checked=\"\">\n        \n        <input type=\"color\" title=\"Color de Numeración\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"range\" title=\"Opacidad de Numeración\" inline=\"\" name=\"counterOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <ol>\n                    <li class=\"mbr-pb-2\"><b>RENDIMIENTO</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi debitis quibusdam sint, in neque ut sapiente saepe reiciendis quia, amet, accusamus alias numquam ipsum quo quae deserunt laborum sed! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>COMPROMISOS</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nihil ut soluta eos, sint ex ad tenetur dolore at inventore, ipsam ullam molestiae magnam repellat quod earum in sed assumenda! <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                    <li class=\"mbr-pb-2\"><b>FLEXIBILIDAD</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nulla assumenda magni temporibus sapiente optio ullam quia. Deserunt quod a ab, ullam ea sed, corrupti consequuntur necessitatibus maiores exercitationem ut. <a href=\"https://mobirise.co/\">¡Pruebelo ahora!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rZld5uY5g8",
+          "_customHTML": "<section class=\"mbr-section content9\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Numeración Personalizada\" name=\"stylizedCounters\" checked>\n        \n        <input type=\"color\" title=\"Color de Numeración\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"range\" title=\"Opacidad de Numeración\" inline name=\"counterOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                 <h2>Frasi che il rapper Lil Peep</h2>\n                <ol>\n                    <li class=\"mbr-pb-2\">Ama ora, piangi dopo\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Vorrei non avere il coraggio di amarti\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"La pioggia continua a cadere, le lacrime continuano a cadere. Caro, il tuo amore è come camminare su un letto di chiodi e non riesco a starti dietro\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Vorrei essere un po' meno... appassionato. Sono una perso</li>\n<h2>Frases de Lil Peep sobre la vida </h2>\n<li class=\"mbr-pb-2\">\"Stavo pensando bene a me stesso. Ho pensato molto al formaggio. - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Adoro le stazioni di servizio. Le stazioni di servizio hanno alcuni dei vestiti più malati della storia. Magliette, cappelli, tutto\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Mi sento come se fossi creativo e voglio approfittarne\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"A volte la vita è rovinata. Ecco perché siamo fottuti\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Non essere mai ingrato\". - Lil Peep\n</li>\n<li class=\"mbr-pb-2\">\"Credo proprio che il pianeta sia molto triste. Penso anche che molte persone siano molto ingrate, il che è un altro grosso problema\". - Lil Peep</li>\n                    <h2>Frasi di Lil Peep sul duro lavoro</h2>\n                    <li class=\"mbr-pb-2\">\"Penso che tutti dovrebbero fare i funghi almeno due volte all'anno. E' ottimo per la salute mentale. Non riesco a spiegarlo. È come se ricevessi un messaggio nel tuo cervello. - Lil Peep</li><li class=\"mbr-pb-2\">\"Guardate il cielo stanotte. Tutte le stelle hanno un motivo. - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Aiuto i miei amici quando ne hanno bisogno. Sono estremamente generoso. - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Ho fatto tutto questo da solo. In realtà, non chiedo mai aiuto a nessuno. - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Ho sempre saputo che sarei diventato un artista. Avevo molta fiducia in questo\". - Lil Peep\n</li><h2>Lil Peep Sad Frases </h2> <li class=\"mbr-pb-2\">\"Di' ai ragazzi ricchi di guardarmi adesso\". - Lil Peep\n</li><li class=\"mbr-pb-2\">\"Se non sei un personaggio abbastanza divertente, allora nessuno ti fotterà perché non hai abbastanza merda che sia diversa\". - Lil Peep</li>\n                \n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rZlvIlOdhq",
+          "_anchor": "content9-u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-b"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "img": {
-              "object-fit": "contain"
-            },
-            ".item, .group-title": {
-              "color": "#efefef"
-            },
-            "@media (max-width: 767px)": {
-              ".items-col": {
-                "margin": "2rem 0"
-              }
-            }
-          },
-          "_name": "footer2",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <select title=\"Columnas\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Mostrar Cabecera de Columna\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Elementos de Columna 1\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"3\">\n        <input type=\"range\" inline title=\"Elementos de Columna 2\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"3\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline title=\"Elementos de Columna 3\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"3\" condition=\"columnsCount > 2\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\" selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#232323\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-3\">\n                <amp-img src=\"@THEME_PATH@/components/_images/background3.jpg\" layout=\"responsive\" width=\"323.20000000000005\" height=\"202\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/background3.jpg\" alt=\"Mobirise\">\n                </amp-img>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Novedades\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Sobre Nosotros\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Servicios\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Estar en contacto\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Categorías\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Negocios\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Diseño\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Ciencia\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Enlaces\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Diseñador de Sitios Web\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Descargar para Mac\n                    </p>\n                    <p class=\"item mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Descargar para Windows\n                    </p>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-          "_cid": "rZlaUdvniD",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {},
-          "_anchor": "footer2-6"
+          "_params": {}
         }
       ]
     }
